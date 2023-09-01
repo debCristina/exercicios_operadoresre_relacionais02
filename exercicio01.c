@@ -9,14 +9,12 @@ main(){
     printf("Digite um numero: ");
     scanf("%d", &numero);
 
-    raiz_quadrada = sqrt(numero);
-    quadrado_numero = pow(numero, 2);
-
     if(numero >= 0){
+        raiz_quadrada = sqrt(numero);
         printf("Raiz quadrada: %.2lf", raiz_quadrada);
 
-
     }else{
+        quadrado_numero = pow(numero, 2);
         printf("Quadrado de %d e %d", numero, quadrado_numero);
     }
 
