@@ -21,7 +21,7 @@ main(){
         printf("O numero esta entre 500 e 1000");
 
     }else{
-        printf("O numero nao corresponde a nenhum dos escopos, Pois:\nNao e igual a 5");
+        printf("O numero nao corresponde a nenhum dos escopos, Pois:");
         printf("\nNao e igual a 5\nNao e igual a 200 \nNao e igual a 400 \nNao esta entre 500 e 1000");
     }
     
