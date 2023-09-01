@@ -17,7 +17,7 @@ main(){
     }else if(numero == 400){
         printf("O numero e igual a 400");
 
-    }else if((numero >= 500) && (numero <= 1000)){
+    }else if((numero > 500) && (numero < 1000)){
         printf("O numero esta entre 500 e 1000");
 
     }else{
