@@ -4,19 +4,7 @@ main(){
 
     //Construa um algoritmo que, dado quatro valores, A, B, C e D, o algoritmo imprima o maior e o menor valor. 
 
-    int A, B, C, D;
-
-    printf("Digite o primeiro numero: ");
-    scanf("%d", &A);
-
-    printf("Digite o segundo numero: ");
-    scanf("%d", &B);
-
-    printf("Digite o terceiro numero: ");
-    scanf("%d", &C);
-
-    printf("Digite o quarto numero: ");
-    scanf("%d", &D);
+    int A= 1, B= 2, C= 3, D= 4;
 
     if((A > B) && (A > C) && (A > D)){
         printf("O maior numero e %d", A);
